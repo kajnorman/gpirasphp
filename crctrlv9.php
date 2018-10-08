@@ -4,16 +4,17 @@
 
 <h1>
 <?php
+$setmode17 = shell_exec("sudo /usr/bin/raspi-gpio set 17 op");
 if(isset($_GET['F'])){
-        $msg = shell_exec("echo F >/tmp/carctrl");
+//        $gpio_on = shell_exec("sudo /usr/bin/raspi-gpio set 17 dh");
         echo "Forward";
 }
 else if(isset($_GET['FF'])){
-        $msg = shell_exec("echo FF >/tmp/carctrl");
+//        $gpio_off = shell_exec("sudo /usr/bin/raspi-gpio set 17 dl");
         echo "Fast Forward";
 }
 else if(isset($_GET['S'])){
-        $msg = shell_exec("echo S >/tmp/carctrl");
+//        $gpio_off = shell_exec("sudo /usr/bin/raspi-gpio set 17 dl");
         echo "Stop";
 }
 ?>
@@ -66,5 +67,3 @@ else if(isset($_GET['S'])){
 
 </body>
 </html>
-
-

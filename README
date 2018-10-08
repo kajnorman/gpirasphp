@@ -6,12 +6,31 @@ INTRO:
 		A python script 
 		The pythonscript controles the gpio-pins
 		that controls the motors through 
-		an H-bridge powersupply.
+		an H-bridge with PWM
 
 
 
 FILES:
+	README			this file
 	Demo only
 		blink.py	python blinking script
+		LightenDarken.py	pwm demo
 		onoff.php	PHP script to draw two buttons that allows controlling one gpio-output 
-	
+		testtable_and_forms.php
+		buttons_in_tables.php
+	crctrlv9.php
+	carctrl.php
+
+
+	readtmpfile.py
+	carctrlv9.py
+	carctrl.py
+
+
+	how_to_save_on_git
+	install
+
+
+USAGE:
+
+

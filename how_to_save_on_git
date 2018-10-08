@@ -1,0 +1,8 @@
+Important cuts from the history
+
+ 1310  git remote add origin https://github.com/kajnorman/gpirasphp.git
+ 1315  git init 
+ 1316  git add *
+ 1329  git commit -m "first commit"
+ 1330  git status
+ 1331  git push -u origin master

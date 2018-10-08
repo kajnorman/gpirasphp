@@ -1,0 +1,6 @@
+cp onoff.php /var/www/html
+echo  "remember allow the user www-data to use sudo"
+echo  " copy pi's permisions in sudoers "
+cp testtable_and_forms.php /var/www/html/testtable_and_forms.php
+cp buttons_in_tables.php /var/www/html/buttons_in_tables.php
+cp carctrl.php /var/www/html/carctrl.php

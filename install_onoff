@@ -1,0 +1,3 @@
+cp onoff.php /var/www/html
+echo  "remember allow the user www-data to use sudo"
+echo  " copy pi's permisions in sudoers "

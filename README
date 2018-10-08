@@ -1,0 +1,17 @@
+INTRO:
+	This directory holds files to allow a webcontrol of a two (or four) wheeled (2wd) vehicle
+	It is controlled 
+		from a webinterfac on a php-script 
+		the php-scipt is controlling
+		A python script 
+		The pythonscript controles the gpio-pins
+		that controls the motors through 
+		an H-bridge powersupply.
+
+
+
+FILES:
+	Demo only
+		blink.py	python blinking script
+		onoff.php	PHP script to draw two buttons that allows controlling one gpio-output 
+	
